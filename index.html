@@ -1,499 +1,1004 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
+    <!-- ================= BASIC SEO ================= -->
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Engr Dawood | Software Engineer</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description"
+        content="Engr Dawood - Software Engineering student, Web Developer and Graphic Designer. Explore my skills, projects and professional portfolio.">
+
+    <meta name="keywords"
+        content="Engr Dawood, Dawood Shah, Software Engineer, Software Engineering Student, Web Developer, Graphic Designer, UI UX Designer, Pakistan">
+
+    <meta name="author"
+        content="Engr Dawood">
+
+    <meta name="robots"
+        content="index, follow">
+
+    <meta name="theme-color"
+        content="#080b12">
+
+
+    <!-- ================= OPEN GRAPH ================= -->
+
+    <meta property="og:type"
+        content="website">
+
+    <meta property="og:title"
+        content="Engr Dawood | Software Engineer & Designer">
+
+    <meta property="og:description"
+        content="Professional portfolio of Engr Dawood - Software Engineering student, Web Developer and Graphic Designer.">
+
+    <meta property="og:image"
+        content="images/profile.jpg">
+
+
+    <!-- ================= TITLE ================= -->
+
+    <title>
+        Engr Dawood | Software Engineer & Designer
+    </title>
+
+
+    <!-- ================= FAVICON ================= -->
+
+    <link rel="icon"
+        href="images/profile.jpg"
+        type="image/jpeg">
+
+
+    <!-- ================= GOOGLE FONTS ================= -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- ================= FONT AWESOME ================= -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+
+    <!-- ================= CSS ================= -->
+
+    <link rel="stylesheet"
+        href="css/style.css">
+
+
+    <!-- ================= STRUCTURED DATA / SEO ================= -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Engr Dawood",
+        "jobTitle": "Software Engineering Student and Graphic Designer",
+        "email": "mailto:dawoodshahbjr3@gmail.com",
+        "telephone": "+923295922734",
+        "url": "",
+        "sameAs": [
+            "https://wa.me/923295922734"
+        ]
+    }
+    </script>
+
 </head>
+
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
 
-    <header class="navbar">
-        <div class="nav-container">
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
 
-            <a href="#home" class="logo">
-                Engr<span>Dawood.</span>
+    <header class="header"
+        id="header">
+
+        <nav class="navbar container">
+
+
+            <!-- LOGO -->
+
+            <a href="#home"
+                class="logo"
+                aria-label="Engr Dawood Home">
+
+                <span>Engr</span>
+                Dawood
+
             </a>
 
-            <nav>
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
 
-            <a href="#contact" class="nav-btn">
-                Let's Talk ↗
-            </a>
+            <!-- NAVIGATION -->
 
-        </div>
+            <div class="nav-menu"
+                id="navMenu">
+
+                <a href="#home"
+                    class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#skills"
+                    class="nav-link">
+                    Skills
+                </a>
+
+                <a href="#projects"
+                    class="nav-link">
+                    Projects
+                </a>
+
+                <a href="#contact"
+                    class="nav-link">
+                    Contact
+                </a>
+
+
+                <!-- Mobile Theme -->
+
+                <button
+                    class="theme-btn mobile-theme"
+                    id="themeToggleMobile"
+                    type="button"
+                    aria-label="Toggle theme">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+
+                <!-- Close Menu -->
+
+                <button
+                    class="menu-close"
+                    id="menuClose"
+                    type="button"
+                    aria-label="Close navigation">
+
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+
+            </div>
+
+
+            <!-- RIGHT ACTIONS -->
+
+            <div class="nav-actions">
+
+                <button
+                    class="theme-btn desktop-theme"
+                    id="themeToggleDesktop"
+                    type="button"
+                    aria-label="Toggle dark and light mode">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+
+                <button
+                    class="menu-btn"
+                    id="menuOpen"
+                    type="button"
+                    aria-label="Open navigation">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </nav>
+
     </header>
 
 
-    <!-- ================= HERO ================= -->
 
     <main>
 
-        <section id="home" class="hero">
 
-            <div class="hero-content">
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
 
-                <div class="hero-text">
+        <section
+            class="hero section"
+            id="home">
 
-                    <div class="hello">
-                        👋 Hello, World!
+            <div class="hero-grid"></div>
+
+            <div class="hero-orb orb-one"></div>
+            <div class="hero-orb orb-two"></div>
+
+
+            <div class="container hero-container">
+
+
+                <!-- HERO CONTENT -->
+
+                <div class="hero-content reveal">
+
+
+                    <div class="hero-badge">
+
+                        <span class="status-dot"></span>
+
+                        Available for Projects
+
                     </div>
 
+
+                    <p class="hero-intro">
+                        Hello, I'm
+                    </p>
+
+
                     <h1>
-                        I'm <span>Engr Dawood</span>
+                        Engr <span>Dawood</span>
                     </h1>
 
+
                     <h2>
-                        Software Engineer
-                        <br>
-                        <strong>& Creative Designer</strong>
+                        Software Engineering Student
+                        <span>&</span>
+                        Creative Designer
                     </h2>
 
-                    <p>
-                        I create modern websites, user-friendly interfaces
-                        and creative digital experiences with technology
-                        and design.
+
+                    <p class="hero-description">
+
+                        I build modern digital experiences by combining
+                        software engineering, web development and creative
+                        design.
+
                     </p>
+
+
+                    <!-- BUTTONS -->
 
                     <div class="hero-buttons">
 
-                        <a href="#projects" class="gradient-btn">
-                            My Works ↗
+                        <a
+                            href="#projects"
+                            class="btn btn-primary">
+
+                            View My Work
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
                         </a>
 
-                        <a href="#contact" class="outline-btn">
-                            Contact Me
-                        </a>
 
-                    </div>
+                        <a
+                            href="#contact"
+                            class="btn btn-outline">
 
-                    <div class="socials">
+                            Let's Talk
 
-                        <a href="https://wa.me/923295922734" target="_blank">
-                            WhatsApp
-                        </a>
+                            <i class="fa-regular fa-paper-plane"></i>
 
-                        <a href="mailto:dawoodshahbjr3@gmail.com">
-                            Email
-                        </a>
-
-                        <a href="https://www.facebook.com/" target="_blank">
-                            Facebook
                         </a>
 
                     </div>
 
-                </div>
+
+                    <!-- SOCIAL -->
+
+                    <div class="social-links">
 
 
-                <div class="hero-image">
+                        <a
+                            href="mailto:dawoodshahbjr3@gmail.com"
+                            aria-label="Send email">
 
-                    <div class="gradient-circle"></div>
+                            <i class="fa-solid fa-envelope"></i>
 
-                    <div class="image-wrapper">
-
-                        <img src="images/profile.jpg" alt="Engr Dawood">
-
-                    </div>
-
-                    <div class="floating-card">
-                        <span>✦</span>
-                        Creative
-                        <br>
-                        Developer
-                    </div>
-
-                </div>
-
-            </div>
+                        </a>
 
 
-            <div class="skill-strip">
+                        <a
+                            href="https://wa.me/923295922734"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Open WhatsApp">
 
-                <span>MY SKILLS</span>
+                            <i class="fa-brands fa-whatsapp"></i>
 
-                <strong>HTML</strong>
-                <strong>CSS</strong>
-                <strong>JavaScript</strong>
-                <strong>C++</strong>
-                <strong>PHP</strong>
-                <strong>MySQL</strong>
-                <strong>UI/UX</strong>
-
-            </div>
-
-        </section>
+                        </a>
 
 
-        <!-- ================= ABOUT ================= -->
+                        <a
+                            href="#contact"
+                            aria-label="Contact me">
 
-        <section id="about" class="about section">
+                            <i class="fa-regular fa-message"></i>
 
-            <div class="section-title">
+                        </a>
 
-                <span>ABOUT ME</span>
-
-                <h2>
-                    Turning ideas into
-                    <em>digital experiences.</em>
-                </h2>
-
-            </div>
-
-
-            <div class="about-grid">
-
-                <div class="about-text">
-
-                    <p>
-                        I am a Software Engineering student at
-                        University of Sahiwal with an interest in
-                        software development, web development,
-                        graphic designing and UI/UX.
-                    </p>
-
-                    <p>
-                        I enjoy learning modern technologies and
-                        building practical projects that solve
-                        real-world problems.
-                    </p>
-
-                    <a href="#contact" class="text-link">
-                        Let's work together ↗
-                    </a>
-
-                </div>
-
-
-                <div class="stats">
-
-                    <div class="stat">
-                        <h3>12+</h3>
-                        <p>Technologies</p>
-                    </div>
-
-                    <div class="stat">
-                        <h3>03+</h3>
-                        <p>Major Projects</p>
-                    </div>
-
-                    <div class="stat">
-                        <h3>04+</h3>
-                        <p>Creative Services</p>
-                    </div>
-
-                    <div class="stat">
-                        <h3>100%</h3>
-                        <p>Learning Mindset</p>
                     </div>
 
                 </div>
 
-            </div>
 
-        </section>
 
+                <!-- HERO IMAGE -->
 
-        <!-- ================= SERVICES ================= -->
+                <div class="hero-image reveal">
 
-        <section id="services" class="services section">
 
-            <div class="section-title center">
+                    <div class="image-glow"></div>
 
-                <span>WHAT I DO</span>
 
-                <h2>
-                    My <em>Services</em>
-                </h2>
+                    <div class="image-card">
 
-                <p class="section-subtitle">
-                    Creative and technical solutions designed to turn
-                    ideas into modern digital experiences.
-                </p>
 
-            </div>
+                        <div class="image-top">
 
+                            <span></span>
+                            <span></span>
+                            <span></span>
 
-            <div class="service-grid">
+                        </div>
 
 
-                <div class="service-card">
+                        <div class="profile-placeholder">
 
-                    <div class="service-number">
-                        01
-                    </div>
 
-                    <div class="service-icon">
-                        &lt;/&gt;
-                    </div>
+                            <img
+                                src="images/1.png"
+                                alt="Engr Dawood Shah"
+                                loading="eager"
+                                onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
 
-                    <h3>
-                        Web Development
-                    </h3>
 
-                    <p>
-                        Modern, responsive and fast websites built
-                        with clean and scalable technologies.
-                    </p>
+                            <div class="fallback-profile">
 
-                    <div class="service-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JS</span>
-                    </div>
+                                <span>ED</span>
 
-                    <a href="#contact" class="service-link">
-                        Explore Service <span>↗</span>
-                    </a>
+                            </div>
 
-                </div>
-
-
-                <div class="service-card">
-
-                    <div class="service-number">
-                        02
-                    </div>
-
-                    <div class="service-icon">
-                        ◈
-                    </div>
-
-                    <h3>
-                        UI/UX Design
-                    </h3>
-
-                    <p>
-                        Clean and intuitive interfaces focused on
-                        usability, visual design and user experience.
-                    </p>
-
-                    <div class="service-tech">
-                        <span>UI</span>
-                        <span>UX</span>
-                        <span>Figma</span>
-                    </div>
-
-                    <a href="#contact" class="service-link">
-                        Explore Service <span>↗</span>
-                    </a>
-
-                </div>
-
-
-                <div class="service-card">
-
-                    <div class="service-number">
-                        03
-                    </div>
-
-                    <div class="service-icon">
-                        ✦
-                    </div>
-
-                    <h3>
-                        Graphic Design
-                    </h3>
-
-                    <p>
-                        Creative visual designs for brands, social media,
-                        marketing materials and digital products.
-                    </p>
-
-                    <div class="service-tech">
-                        <span>PS</span>
-                        <span>AI</span>
-                        <span>Canva</span>
-                    </div>
-
-                    <a href="#contact" class="service-link">
-                        Explore Service <span>↗</span>
-                    </a>
-
-                </div>
-
-
-                <div class="service-card">
-
-                    <div class="service-number">
-                        04
-                    </div>
-
-                    <div class="service-icon">
-                        { }
-                    </div>
-
-                    <h3>
-                        Software Development
-                    </h3>
-
-                    <p>
-                        Practical software solutions and programming
-                        projects focused on solving real problems.
-                    </p>
-
-                    <div class="service-tech">
-                        <span>C++</span>
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                    </div>
-
-                    <a href="#contact" class="service-link">
-                        Explore Service <span>↗</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= PROJECTS ================= -->
-
-        <section id="projects" class="projects section">
-
-            <div class="section-title">
-
-                <span>SELECTED WORK</span>
-
-                <h2>
-                    Featured <em>Projects</em>
-                </h2>
-
-            </div>
-
-
-            <div class="project-grid">
-
-                <article class="project">
-
-                    <div class="project-top">
-                        <span>01</span>
-                        <span>Web Platform</span>
-                    </div>
-
-                    <div class="project-content">
-
-                        <h3>SDcognitia</h3>
-
-                        <p>
-                            Learning platform concept for IT students
-                            and developers.
-                        </p>
-
-                        <div class="tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
                         </div>
 
                     </div>
 
-                </article>
 
 
-                <article class="project">
+                    <!-- FLOATING CARD -->
 
-                    <div class="project-top">
-                        <span>02</span>
-                        <span>Web System</span>
+                    <div class="floating-card card-one">
+
+                        <div class="floating-icon">
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Developer
+                            </strong>
+
+                            <small>
+                                Clean Code
+                            </small>
+
+                        </div>
+
                     </div>
 
-                    <div class="project-content">
 
-                        <h3>Restaurant QR System</h3>
+
+                    <div class="floating-card card-two">
+
+                        <div class="floating-icon">
+
+                            <i class="fa-solid fa-pen-nib"></i>
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Designer
+                            </strong>
+
+                            <small>
+                                Creative UI
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- SCROLL -->
+
+            <a
+                href="#skills"
+                class="scroll-down"
+                aria-label="Scroll to skills">
+
+                <span></span>
+
+                Scroll Down
+
+            </a>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             SKILLS
+        ====================================================== -->
+
+        <section
+            class="skills section"
+            id="skills">
+
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        MY EXPERTISE
+                    </span>
+
+                    <h2>
+                        Skills That I
+                        <span>Build With</span>
+                    </h2>
+
+                    <p>
+                        A combination of development, design and
+                        technical skills to create complete digital
+                        solutions.
+                    </p>
+
+                </div>
+
+
+
+                <div class="skills-grid">
+
+
+                    <!-- CARD 1 -->
+
+                    <article
+                        class="skill-card reveal">
+
+                        <div class="skill-icon">
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </div>
+
+                        <h3>
+                            Web Development
+                        </h3>
 
                         <p>
-                            Digital restaurant menu and ordering
-                            system using QR codes.
+                            Building responsive and modern websites
+                            with clean, semantic and maintainable code.
                         </p>
 
-                        <div class="tags">
+                        <div class="skill-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
                             <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>QR</span>
+
                         </div>
 
-                    </div>
-
-                </article>
+                    </article>
 
 
-                <article class="project">
 
-                    <div class="project-top">
-                        <span>03</span>
-                        <span>Academy</span>
-                    </div>
+                    <!-- CARD 2 -->
 
-                    <div class="project-content">
+                    <article
+                        class="skill-card reveal">
 
-                        <h3>IPS Academy</h3>
+                        <div class="skill-icon">
+
+                            <i class="fa-solid fa-palette"></i>
+
+                        </div>
+
+                        <h3>
+                            Graphic Design
+                        </h3>
 
                         <p>
-                            Responsive academy website for DIT
-                            and short courses.
+                            Creating professional visual designs for
+                            digital brands, social media and businesses.
                         </p>
 
-                        <div class="tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
+                        <div class="skill-tags">
+
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                            <span>Canva</span>
+
                         </div>
 
-                    </div>
+                    </article>
 
-                </article>
+
+
+                    <!-- CARD 3 -->
+
+                    <article
+                        class="skill-card reveal">
+
+                        <div class="skill-icon">
+
+                            <i class="fa-solid fa-database"></i>
+
+                        </div>
+
+                        <h3>
+                            Database
+                        </h3>
+
+                        <p>
+                            Designing structured databases and working
+                            with data-driven web applications.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>PHP</span>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- CARD 4 -->
+
+                    <article
+                        class="skill-card reveal">
+
+                        <div class="skill-icon">
+
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+
+                        </div>
+
+                        <h3>
+                            UI / UX Design
+                        </h3>
+
+                        <p>
+                            Designing simple, modern and user-friendly
+                            interfaces with focus on usability.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>UI</span>
+                            <span>UX</span>
+                            <span>Figma</span>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- ================= CONTACT ================= -->
 
-        <section id="contact" class="contact">
+        <!-- =====================================================
+             PROJECTS
+        ====================================================== -->
 
-            <div class="contact-inner">
+        <section
+            class="projects section"
+            id="projects">
 
-                <span>GET IN TOUCH</span>
 
-                <h2>
-                    Have an idea?
-                    <br>
-                    Let's build it <em>together.</em>
-                </h2>
+            <div class="container">
 
-                <p>
-                    Feel free to contact me through any platform.
-                </p>
 
-                <div class="contact-buttons">
+                <div class="section-heading reveal">
 
-                    <a href="https://wa.me/923295922734" target="_blank">
-                        WhatsApp ↗
+                    <span class="section-label">
+                        MY WORK
+                    </span>
+
+                    <h2>
+                        Featured
+                        <span>Projects</span>
+                    </h2>
+
+                    <p>
+                        Some digital products and software projects
+                        I have worked on.
+                    </p>
+
+                </div>
+
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 01 -->
+
+                    <article
+                        class="project-card reveal">
+
+
+                        <div class="project-image project-one">
+
+                            <div class="project-pattern"></div>
+
+                            <div class="project-overlay">
+
+                                <i class="fa-solid fa-graduation-cap"></i>
+
+                            </div>
+
+                            <span class="project-label">
+                                LMS
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-number">
+                                01
+                            </span>
+
+                            <h3>
+                                IT Academy LMS
+                            </h3>
+
+                            <p>
+                                A dynamic learning management platform
+                                for an IT academy with student registration,
+                                courses and administration.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+                                <span>CSS</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 02 -->
+
+                    <article
+                        class="project-card reveal">
+
+
+                        <div class="project-image project-two">
+
+                            <div class="project-pattern"></div>
+
+                            <div class="project-overlay">
+
+                                <i class="fa-solid fa-qrcode"></i>
+
+                            </div>
+
+                            <span class="project-label">
+                                QR SYSTEM
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+                            <h3>
+                                Restaurant QR System
+                            </h3>
+
+                            <p>
+                                A restaurant ordering system where
+                                customers scan table QR codes and place
+                                orders digitally.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+                                <span>QR</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 03 -->
+
+                    <article
+                        class="project-card reveal">
+
+
+                        <div class="project-image project-three">
+
+                            <div class="project-pattern"></div>
+
+                            <div class="project-overlay">
+
+                                <i class="fa-solid fa-car"></i>
+
+                            </div>
+
+                            <span class="project-label">
+                                SMART SYSTEM
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-content">
+
+                            <span class="project-number">
+                                03
+                            </span>
+
+                            <h3>
+                                Smart Parking System
+                            </h3>
+
+                            <p>
+                                A smart parking concept involving vehicle
+                                identification, digital receipts and
+                                exit verification.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>Web</span>
+                                <span>Database</span>
+                                <span>Automation</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section
+            class="contact section"
+            id="contact">
+
+
+            <div class="contact-background"></div>
+
+
+            <div class="container">
+
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        GET IN TOUCH
+                    </span>
+
+                    <h2>
+                        Let's Work
+                        <span>Together</span>
+                    </h2>
+
+                    <p>
+                        Have a project, idea or opportunity?
+                        Connect with me directly.
+                    </p>
+
+                </div>
+
+
+
+                <!-- CONTACT OPTIONS -->
+
+                <div class="contact-container">
+
+
+                    <!-- WHATSAPP -->
+
+                    <a
+                        href="https://wa.me/923295922734"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-option reveal">
+
+
+                        <div
+                            class="contact-option-icon whatsapp-icon">
+
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                        </div>
+
+
+                        <div class="contact-option-content">
+
+                            <span>
+                                CHAT ON WHATSAPP
+                            </span>
+
+                            <h3>
+                                +92 329 5922734
+                            </h3>
+
+                            <p>
+                                Send me a message directly
+                            </p>
+
+                        </div>
+
+
+                        <div class="contact-option-arrow">
+
+                            <i class="fa-solid fa-arrow-up-right"></i>
+
+                        </div>
+
                     </a>
 
-                    <a href="mailto:dawoodshahbjr3@gmail.com">
-                        Email ↗
+
+
+                    <!-- EMAIL -->
+
+                    <a
+                        href="mailto:dawoodshahbjr3@gmail.com"
+                        class="contact-option reveal">
+
+
+                        <div
+                            class="contact-option-icon email-icon">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </div>
+
+
+                        <div class="contact-option-content">
+
+                            <span>
+                                SEND AN EMAIL
+                            </span>
+
+                            <h3>
+                                dawoodshahbjr3@gmail.com
+                            </h3>
+
+                            <p>
+                                Let's discuss your project
+                            </p>
+
+                        </div>
+
+
+                        <div class="contact-option-arrow">
+
+                            <i class="fa-solid fa-arrow-up-right"></i>
+
+                        </div>
+
                     </a>
 
-                    <a href="https://www.facebook.com/" target="_blank">
-                        Facebook ↗
+
+                </div>
+
+
+
+                <!-- CONTACT CTA -->
+
+                <div class="contact-cta reveal">
+
+
+                    <div class="cta-icon">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </div>
+
+
+                    <div class="cta-content">
+
+                        <h3>
+                            Have an idea in mind?
+                        </h3>
+
+                        <p>
+                            Let's turn your idea into a modern
+                            digital experience.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="https://wa.me/923295922734"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary">
+
+                        Start a Conversation
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
                     </a>
 
                 </div>
@@ -501,111 +1006,194 @@
             </div>
 
         </section>
+
 
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
 
     <footer class="footer">
 
-        <div class="footer-container">
+
+        <div class="container footer-container">
+
+
+            <!-- BRAND -->
 
             <div class="footer-brand">
 
-                <a href="#home" class="footer-logo">
-                    Engr<span>Dawood.</span>
+
+                <a
+                    href="#home"
+                    class="logo">
+
+                    <span>Engr</span>
+                    Dawood
+
                 </a>
 
+
                 <p>
-                    Software Engineer & Creative Designer.
-                    Building modern digital experiences through
-                    technology, creativity and design.
+                    Software Engineering student creating modern,
+                    meaningful and user-focused digital experiences.
                 </p>
+
 
                 <div class="footer-socials">
 
-                    <a href="https://wa.me/923295922734" target="_blank">
-                        WhatsApp
+
+                    <a
+                        href="mailto:dawoodshahbjr3@gmail.com"
+                        aria-label="Email">
+
+                        <i class="fa-solid fa-envelope"></i>
+
                     </a>
 
-                    <a href="mailto:dawoodshahbjr3@gmail.com">
-                        Email
+
+                    <a
+                        href="https://wa.me/923295922734"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="WhatsApp">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
                     </a>
 
-                    <a href="https://www.facebook.com/" target="_blank">
-                        Facebook
+
+                    <a
+                        href="#contact"
+                        aria-label="Contact">
+
+                        <i class="fa-regular fa-message"></i>
+
                     </a>
+
 
                 </div>
 
             </div>
 
 
-            <div class="footer-column">
 
-                <h4>Quick Links</h4>
-
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-
-            </div>
-
+            <!-- QUICK LINKS -->
 
             <div class="footer-column">
 
-                <h4>Services</h4>
-
-                <a href="#services">Web Development</a>
-                <a href="#services">UI/UX Design</a>
-                <a href="#services">Graphic Design</a>
-                <a href="#services">Software Development</a>
-
-            </div>
+                <h4>
+                    Quick Links
+                </h4>
 
 
-            <div class="footer-column">
-
-                <h4>Contact</h4>
-
-                <a href="mailto:dawoodshahbjr3@gmail.com">
-                    dawoodshahbjr3@gmail.com
+                <a href="#home">
+                    Home
                 </a>
 
-                <a href="https://wa.me/923295922734" target="_blank">
-                    +92 329 5922734
+                <a href="#skills">
+                    Skills
                 </a>
 
-                <span>
-                    Pakistan
-                </span>
+                <a href="#projects">
+                    Projects
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
 
             </div>
+
+
+
+            <!-- CONTACT -->
+
+            <div class="footer-column">
+
+                <h4>
+                    Connect
+                </h4>
+
+
+                <a
+                    href="mailto:dawoodshahbjr3@gmail.com">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    Email Me
+
+                </a>
+
+
+                <a
+                    href="https://wa.me/923295922734"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    WhatsApp
+
+                </a>
+
+            </div>
+
 
         </div>
 
 
-        <div class="footer-bottom">
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom container">
+
 
             <p>
-                © <span id="year"></span> Engr Dawood. All Rights Reserved.
+                ©
+                <span id="year"></span>
+                Engr Dawood.
+                All Rights Reserved.
             </p>
 
+
             <p>
-                Designed & Developed by Engr Dawood
+                Designed & Developed by
+                <strong>
+                    Engr Dawood
+                </strong>
             </p>
+
 
         </div>
 
     </footer>
 
 
+
+    <!-- =====================================================
+         BACK TO TOP
+    ====================================================== -->
+
+    <button
+        class="back-top"
+        id="backTop"
+        type="button"
+        aria-label="Back to top">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
     <script src="js/script.js"></script>
 
 </body>
 
 </html>
-```
